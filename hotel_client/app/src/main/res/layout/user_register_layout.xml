@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="用户注册界面"
+        android:maxLength="15"
+        android:textColor="@color/maroon"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入密码"
+        android:maxLength="15"/>
+
+    <Button
+        android:id="@+id/send_register_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button_style"
+        android:text="注册"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+</LinearLayout>

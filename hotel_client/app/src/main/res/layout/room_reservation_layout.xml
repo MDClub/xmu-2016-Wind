@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#111111"
+        >
+     </ListView>
+    -->
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:text="房间入住界面"
+        />
+    <TextView
+        android:id="@+id/account_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/room_id_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入房间ID"
+        android:maxLength="5"/>
+
+    <Button
+        android:id="@+id/do_reservation_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button_style"
+        android:text="入住"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+
+</LinearLayout>

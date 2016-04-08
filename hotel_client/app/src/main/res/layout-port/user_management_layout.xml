@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:maxLength="15"
+        android:text="用户自助管理界面"
+        android:textColor="@color/maroon"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/account_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/seagreen"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/balance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/state_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--        android:background="@drawable/login_input"-->
+
+        <Button
+            android:id="@+id/reservation_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_button_style"
+            android:text="入住"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/cancel_reservation_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_button_style"
+            android:text="退房"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/book_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_button_style"
+            android:text="预定"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/view_consumption_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_button_style"
+            android:text="查消费"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/change_password_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_button_style"
+            android:text="修改密码"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/recharge_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_button_style"
+            android:text="充值"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+</LinearLayout>
